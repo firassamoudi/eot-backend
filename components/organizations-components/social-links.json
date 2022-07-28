@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_organizations_components_social_links",
+  "info": {
+    "name": "Social links",
+    "icon": "at"
+  },
+  "options": {},
+  "attributes": {
+    "youtube": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "pinterest": {
+      "type": "string"
+    },
+    "linkedin": {
+      "type": "string"
+    }
+  }
+}

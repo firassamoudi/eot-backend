@@ -1,0 +1,81 @@
+{
+  "kind": "collectionType",
+  "collectionName": "organizations",
+  "info": {
+    "name": "Organization",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "logo": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "startup",
+        "accelerator",
+        "incubator",
+        "investor",
+        "coworking_space",
+        "structures_soutien",
+        "media",
+        "public",
+        "event",
+        "job",
+        "project"
+      ]
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "address": {
+      "type": "component",
+      "repeatable": false,
+      "component": "organizations-components.address"
+    },
+    "contact": {
+      "type": "component",
+      "repeatable": false,
+      "component": "organizations-components.contact-info"
+    },
+    "social": {
+      "type": "component",
+      "repeatable": false,
+      "component": "organizations-components.social-links"
+    },
+    "founding_date": {
+      "type": "date"
+    },
+    "sector": {
+      "type": "string"
+    },
+    "advancement_stage": {
+      "type": "string"
+    },
+    "cofounders": {
+      "type": "integer"
+    },
+    "funding": {
+      "type": "float"
+    },
+    "employees": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "voyages",
+  "info": {
+    "name": "voyage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "elements": {
+      "type": "component",
+      "repeatable": true,
+      "component": "voyage-element.elements"
+    },
+    "description": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    },
+    "sub_title": {
+      "type": "string"
+    }
+  }
+}

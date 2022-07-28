@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_voyage_element_elements",
+  "info": {
+    "name": "elements",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "voyage-element-item.items"
+    }
+  }
+}

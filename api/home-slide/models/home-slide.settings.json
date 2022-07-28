@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_slides",
+  "info": {
+    "name": "HomeSlide"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "route": {
+      "type": "string"
+    }
+  }
+}

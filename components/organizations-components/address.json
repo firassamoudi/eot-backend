@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_organizations_components_addresses",
+  "info": {
+    "name": "address",
+    "icon": "map-marker-alt"
+  },
+  "options": {},
+  "attributes": {
+    "street_address": {
+      "type": "string"
+    },
+    "zip_code": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "latitude": {
+      "type": "float"
+    },
+    "longitude": {
+      "type": "float"
+    }
+  }
+}

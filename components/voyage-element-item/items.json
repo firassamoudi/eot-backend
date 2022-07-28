@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_voyage_element_item_items",
+  "info": {
+    "name": "items",
+    "icon": "archway",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

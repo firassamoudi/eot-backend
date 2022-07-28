@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_organizations_components_contact_infos",
+  "info": {
+    "name": "Contact info",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "website": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string"
+    }
+  }
+}

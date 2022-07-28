@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stats",
+  "info": {
+    "name": "Stat"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "value": {
+      "type": "integer"
+    }
+  }
+}

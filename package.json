@@ -1,0 +1,42 @@
+{
+  "name": "eot-backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "knex": "<0.20.0",
+    "lodash": "^4.17.21",
+    "mysql": "^2.18.1",
+    "sqlite3": "5.0.0",
+    "strapi": "3.5.1",
+    "strapi-admin": "3.5.1",
+    "strapi-connector-bookshelf": "3.5.1",
+    "strapi-plugin-content-manager": "3.5.1",
+    "strapi-plugin-content-type-builder": "3.5.1",
+    "strapi-plugin-email": "3.5.1",
+    "strapi-plugin-import-export-content": "^0.4.1",
+    "strapi-plugin-upload": "3.5.1",
+    "strapi-plugin-users-permissions": "3.5.1",
+    "strapi-utils": "3.5.1",
+    "xhr2": "^0.2.1"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "f46b9fb4-9dd7-446e-91cc-b88661b83762"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": "^6.0.0"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,70 @@
+{
+  "kind": "collectionType",
+  "collectionName": "insights",
+  "info": {
+    "name": "Insight",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "price": {
+      "type": "float"
+    },
+    "numberVues": {
+      "type": "integer"
+    },
+    "numberDownloads": {
+      "type": "integer"
+    },
+    "cover": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "file": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "bigImages": {
+      "type": "boolean"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Infographie",
+        "Rapport"
+      ]
+    }
+  }
+}
