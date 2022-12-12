@@ -9,7 +9,7 @@ module.exports = ({ env }) => ({
         port: 3306,
         database: 'eot_db',
         username: 'root',
-        password: 'BhsjxphDm6Tn',
+        password: 'firas_EOTPROJECT2021_@@',
       },
       options: {
         useNullAsDefault: true,
